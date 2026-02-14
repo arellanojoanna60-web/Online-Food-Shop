@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FreshCart | Online Food Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Shop fresh groceries online including rice, pasta, snacks, fruits, dairy, and vegetables. Fast delivery and fresh quality guaranteed.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">FreshCart</div>
+    <nav>
+        <a href="#categories">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button class="cart-btn">🛒 Cart</button>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Fresh Groceries Delivered To Your Door</h1>
+        <p>Shop rice, pasta, snacks, fruits, dairy & vegetables online with fast delivery.</p>
+        <a href="#categories" class="btn">Shop Now</a>
+    </div>
+</section>
+
+<!-- CATEGORIES -->
+<section id="categories" class="section">
+    <h2>Shop by Category</h2>
+
+    <div class="grid">
+
+        <!-- RICE -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c" alt="Rice">
+            <h3>Rice</h3>
+            <p>Premium quality white and brown rice.</p>
+            <button onclick="addToCart('Rice')" class="btn small">Add to Cart</button>
+        </div>
+
+        <!-- PASTA -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>Italian pasta varieties for every dish.</p>
+            <button onclick="addToCart('Pasta')" class="btn small">Add to Cart</button>
+        </div>
+
+        <!-- SNACKS -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1599490659213-e2b9527bd087" alt="Snacks">
+            <h3>Snacks</h3>
+            <p>Chips, crackers & sweet treats.</p>
+            <button onclick="addToCart('Snacks')" class="btn small">Add to Cart</button>
+        </div>
+
+        <!-- FRUITS -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf" alt="Fruits">
+            <h3>Fruits</h3>
+            <p>Fresh and organic seasonal fruits.</p>
+            <button onclick="addToCart('Fruits')" class="btn small">Add to Cart</button>
+        </div>
+
+        <!-- DAIRY -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b" alt="Dairy">
+            <h3>Dairy</h3>
+            <p>Milk, cheese, butter & yogurt.</p>
+            <button onclick="addToCart('Dairy')" class="btn small">Add to Cart</button>
+        </div>
+
+        <!-- VEGETABLES -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999" alt="Vegetables">
+            <h3>Vegetables</h3>
+            <p>Fresh farm-picked vegetables.</p>
+            <button onclick="addToCart('Vegetables')" class="btn small">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section light">
+    <h2>Why Choose FreshCart?</h2>
+    <p>We deliver farm-fresh groceries at affordable prices. Fast delivery, easy checkout, and guaranteed freshness.</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: support@freshcart.com</p>
+    <p>Phone: +63 900 000 0000</p>
+</section>
+
+<footer>
+    <p>© 2026 FreshCart | Online Food Shop</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
